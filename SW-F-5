@@ -232,6 +232,10 @@ interface Vlan105
  ip address 192.168.101.2 255.255.255.0
  no ip route-cache
 !
+interface Vlan106
+ ip address 192.168.106.2 255.255.255.0
+ no ip route-cache
+!
 ip default-gateway 192.168.101.1
 ip http server
 !
