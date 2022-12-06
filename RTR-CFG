@@ -1,0 +1,17 @@
+interface FastEthernet0/47
+ switchport access vlan 105
+ switchport mode access
+!
+interface FastEthernet0/48
+ switchport access vlan 105
+ switchport mode access
+!
+interface GigabitEthernet0/1
+!
+interface GigabitEthernet0/2
+ switchport mode trunk
+!
+interface Vlan1
+ no ip address
+ no ip route-cache
+shutdown
