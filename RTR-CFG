@@ -15,3 +15,8 @@ interface Vlan1
  no ip address
  no ip route-cache
 shutdown
+!
+interface Vlan2
+ no ip address
+ no ip route-cache
+shutdown
